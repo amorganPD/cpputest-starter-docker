@@ -1,5 +1,5 @@
 # we don’t want to use relative paths, so we set these variables
-PROJECT_DIR=/c/dev/cpputest-starter-docker/app
+PROJECT_DIR=/project/app
 SRC_DIR=$(PROJECT_DIR)/src
 TEST_DIR=$(PROJECT_DIR)/tests
 # specify where the source code and includes are located
@@ -13,7 +13,7 @@ TEST_SRC_DIRS = $(TEST_DIR)
 TEST_TARGET=unitTests
 
 # where the cpputest library is located
-CPPUTEST_HOME=/usr/local
+CPPUTEST_HOME=/usr
 
 # run MakefileWorker.mk with the variables defined here
 include MakefileWorker.mk

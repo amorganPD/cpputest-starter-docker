@@ -1,5 +1,5 @@
  
 int starterExample_function(void)
 {
-  return 1;
+  return 8;
 }

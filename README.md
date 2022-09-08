@@ -4,13 +4,13 @@ Starter project for cpputest that uses docker to wrap the environment for window
 To build the container run the following:
 
 ```bash
-docker build . -t starterexample:latest
+> ./scripts/docker-build.sh
 ``` 
 
 To run the tests run the following from project root 
 
 ```bash
-docker run --rm -itv $(PWD):/project starterexample:latest
+> ./scripts/run-tests.sh
 ```
 ___
 
